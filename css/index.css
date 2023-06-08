@@ -243,10 +243,9 @@ video {
   background-color: white;
   width: 80%;
   height: 30vh;
-  border-radius: 20px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: rgba(42, 6, 6, 0.292);
   position: fixed;
   top: 40vh;
   left: 10vw;
@@ -259,8 +258,8 @@ video {
   border-radius: 5px;
 }
 #iglogo {
-  width: 55vw;
-  height: 10vh;
+  width: 40px;
+  height: 40px;
   position: relative;
   left: 10px;
 }
@@ -276,9 +275,8 @@ video {
   border-style: none;
   border-radius: 5px;
   font-size: 17px;
-  font-weight: 900;
+  font-weight: 700;
   color: white;
-  text-shadow: 0.5px 0.5px 1px black;
 }
 .fb-bug {
   width: 68%;
