@@ -86,7 +86,7 @@ header hr {
 #blue h2 {
   margin: 5px;
   padding: 10px;
-  font-size: 26px;
+  font-size: 20px;
   color: white;
   text-transform: capitalize;
 }
@@ -99,7 +99,7 @@ header hr {
   width: 90vw;
   margin-right: 2rem;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -117,7 +117,7 @@ header hr {
 #people p {
   width: 65vw;
   line-height: 26px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   padding: 2px;
@@ -125,7 +125,7 @@ header hr {
 #people h2 {
   margin-top: 25px;
   line-height: 2px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   padding: 2px;
