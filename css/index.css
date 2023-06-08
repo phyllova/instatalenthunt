@@ -65,6 +65,8 @@ header hr {
   margin-left: 25px;
   width: 100px;
   grid-area: but;
+  font-size: large;
+  font-family: sans-serif;
 }
 #nav {
   margin-left: 60px;
@@ -93,22 +95,54 @@ header hr {
   margin: 0;
   padding: 0;
   background-color: lightskyblue;
-  height: 40px;
+  height: 50px;
   width: 100%;
+}
+#blue h2 {
+  margin: 5px;
+  padding: 10px;
+  font-size: 26px;
+  text-transform: capitalize;
 }
 #news {
   margin: 20px;
   font-weight: normal;
   text-align: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+}
+#news p {
+  width: 90vw;
+  margin-right: 2rem;
+  line-height: 26px;
+  font-size: 18px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 1px;
 }
 #people img {
-  width: 90vw;
-  height: 40vh;
-  border-style: solid;
+  width: 65vw;
+  height: 45vh;
+  border-style: none;
   border-width: 1px;
+  border-radius: 40px;
   border-color: black;
+  padding: 2px;
+}
+#people p {
+  width: 65vw;
+  line-height: 26px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 2px;
+}
+#people h2 {
+  margin-top: 25px;
+  line-height: 2px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 2px;
 }
 #tag {
   margin-left: 10px;
@@ -130,11 +164,17 @@ video {
   width: 97%;
   margin-top: 20px;
 }
+#voter h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
 #vote {
   background-color: blue;
   color: white;
   font-weight: bolder;
-  width: 70%;
+  width: 60%;
   height: 25px;
   border-style: solid;
   border-color: black;
@@ -142,19 +182,16 @@ video {
   margin-bottom: 10px;
 }
 #vote2 {
-  background-color: blue;
+  background-color: rgb(174, 0, 255);
   color: white;
-  font-weight: bolder;
+  font-weight: 500;
+  font-family: sans-serif;
   font-size: 20px;
-  width: 80%;
+  width: 60%;
   height: 38px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 3px;
   animation-iteration-count: infinite;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: dim;
 
 
